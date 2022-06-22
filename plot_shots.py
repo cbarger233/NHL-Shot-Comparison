@@ -27,7 +27,7 @@ def plot_distance(player, df, distance=189, season=0):
     plt.plot(pos_x, neg_y, color='b')
     plt.title('{0} Shots From {1} feet Away'.format(player, distance), fontsize=20)
 
-    plt.scatter(x=df['st_x'], y=df['st_y'], s=14, c=colors, alpha=0.60)
+    plt.scatter(x=df['st_x'], y=df['st_y'], s=14, c=colors, alpha=0.35)
     #plt.show()
     total_shots = len(df)
     total_goals = len(df[df['event'] == 'Goal'])
