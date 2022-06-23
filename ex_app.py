@@ -11,8 +11,8 @@ st.title('Compare NHL Players\' Shots')
 st.markdown(
     """This data was obtained from Kaggle [here](https://www.kaggle.com/datasets/martinellis/nhl-game-data).
     Currently, there is only data available from the 2000-2001 season up until the end of the 2019-2020 season.
-    \n\nNot all players are available to compare, as I cut down the choices to only include the top 30 players with the most amount of shots.
-    This ensures that each player featured has at least 8350 shots recorded during this timeframe.
+    \n\nNot all players are available to compare, as I cut down the choices to only include the top 171 players with the most amount of shots.
+    This ensures that each player featured has at least 1250 shots recorded during this timeframe.
     \n\nThe data collected by the NHL is only accurate to the nearest foot, and even then there is a huge amount of uncertainty.
     Because of this many of the shots overlap with each other."""
 )
