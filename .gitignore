@@ -1,0 +1,15 @@
+myenv/
+__pycache__/
+iframe_figures/
+/eda.ipynb
+/game_goalie_stats.csv
+/game_goals.csv
+/game_officials.csv
+/game_penalties.csv
+/game_plays_players.csv
+/game_plays.csv
+/game_scratches.csv
+/game_shifts.csv
+/game_skater_stats.csv
+/game_teams_stats.csv
+/game.csv
